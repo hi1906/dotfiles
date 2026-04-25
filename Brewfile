@@ -24,7 +24,8 @@ brew "fd"                    # better find
 brew "ripgrep"               # better grep
 brew "fzf"                   # fuzzy finder
 brew "zoxide"                # smarter cd
-brew "tldr"                  # simpler man pages
+brew "tlrc"                  # tldr-pages client (Rust, replaces deprecated tldr)
+
 brew "jq"                    # JSON processor
 brew "yq"                    # YAML processor
 brew "tree"
