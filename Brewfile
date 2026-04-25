@@ -7,8 +7,6 @@
 # =============================================================================
 
 # Taps -----------------------------------------------------------------------
-tap "homebrew/bundle"
-tap "homebrew/services"
 tap "hashicorp/tap"
 
 # Core CLI -------------------------------------------------------------------
@@ -50,22 +48,22 @@ brew "ansible"
 
 # Security tooling -----------------------------------------------------------
 brew "nmap"
-brew "wireshark"             # CLI tools (GUI is the cask below)
+# brew "wireshark"           # superseded by wireshark-app cask (includes CLI)
 brew "sqlmap"
 brew "hydra"
 brew "john"                  # John the Ripper
 brew "hashcat"
 
 # Containers -----------------------------------------------------------------
-brew "docker"                # CLI only — Docker Desktop is the cask
+# brew "docker"              # superseded by docker-desktop cask (includes CLI)
 brew "docker-compose"
 brew "lazydocker"
 
 # Casks (GUI apps) -----------------------------------------------------------
 cask "ghostty"               # modern terminal
 cask "visual-studio-code"
-cask "docker"                # Docker Desktop
-# cask "vmware-fusion"  # skipped — install manually from Broadcom when needed
+cask "docker-desktop"        # Docker Desktop (includes docker CLI)
+# cask "vmware-fusion"       # skipped — install manually from Broadcom when needed
 cask "1password"
 cask "1password-cli"
 cask "raycast"
@@ -74,12 +72,12 @@ cask "google-chrome"
 cask "firefox"
 cask "obsidian"              # notes / second brain
 cask "stats"                 # menu bar system monitor
-cask "wireshark"             # GUI
+cask "wireshark-app"         # Wireshark GUI (includes tshark CLI)
 
 # Cybersecurity / IAM-specific GUIs ------------------------------------------
 cask "burp-suite"
 cask "postman"
-cask "tailscale"
+cask "tailscale-app"
 
 # Fonts ----------------------------------------------------------------------
 cask "font-jetbrains-mono-nerd-font"
