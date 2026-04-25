@@ -65,7 +65,7 @@ brew "lazydocker"
 cask "ghostty"               # modern terminal
 cask "visual-studio-code"
 cask "docker"                # Docker Desktop
-cask "vmware-fusion"
+# cask "vmware-fusion"  # skipped — install manually from Broadcom when needed
 cask "1password"
 cask "1password-cli"
 cask "raycast"
