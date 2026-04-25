@@ -1,5 +1,6 @@
 [user]
 	name = hi1906
+	email = imbert.hardell@gmail.com
 	# email is set via `git config --global user.email` (kept out of repo)
 
 [init]
