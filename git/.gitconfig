@@ -1,0 +1,52 @@
+[user]
+	name = hi1906
+	# email is set via `git config --global user.email` (kept out of repo)
+
+[init]
+	defaultBranch = main
+
+[core]
+	editor = code --wait
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+	pager = less -FX
+
+[push]
+	default = current
+	autoSetupRemote = true
+
+[pull]
+	rebase = true
+
+[fetch]
+	prune = true
+
+[merge]
+	conflictstyle = zdiff3
+
+[diff]
+	colorMoved = default
+
+[color]
+	ui = auto
+
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	cm = commit -m
+	cam = commit -am
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	visual = log --oneline --graph --decorate --all
+	amend = commit --amend --no-edit
+
+[help]
+	autocorrect = prompt
+
+[rerere]
+	enabled = true
+
+[github]
+	user = hi1906
