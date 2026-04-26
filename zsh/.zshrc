@@ -86,7 +86,7 @@ alias awswho='aws sts get-caller-identity'
 # Editor ----------------------------------------------------------------------
 export EDITOR='code -w'
 export VISUAL='code -w'
-
+export AWS_PROFILE=hiaws
 # Path additions --------------------------------------------------------------
 export PATH="$HOME/.local/bin:$PATH"
 
