@@ -1,4 +1,4 @@
-# =============================================================================
+.# =============================================================================
 # Brewfile — M1 Pro MacBook Pro
 # =============================================================================
 # Run with: brew bundle --file=~/dotfiles/Brewfile
@@ -74,7 +74,7 @@ cask "firefox"
 cask "obsidian"              # notes / second brain
 cask "stats"                 # menu bar system monitor
 cask "wireshark-app"         # Wireshark GUI (includes tshark CLI)
-
+cask "utm"                   # VM tool for Apple Silicon (used for Kali ARM)
 # Cybersecurity / IAM-specific GUIs ------------------------------------------
 cask "burp-suite"
 cask "postman"
