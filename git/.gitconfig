@@ -1,6 +1,7 @@
 [user]
-	name = hi1906
+	name = Hardell Imbert
 	email = imbert.hardell@gmail.com
+	signingkey = /Users/h.imbert/.ssh/id_ed25519.pub
 	# email is set via `git config --global user.email` (kept out of repo)
 
 [init]
@@ -51,3 +52,11 @@
 
 [github]
 	user = hi1906
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = /Users/h.imbert/.config/git/allowed_signers
